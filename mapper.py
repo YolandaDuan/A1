@@ -27,24 +27,25 @@ for line in sys.stdin:
                 current = tweet['text']
                 if search_term1 in current:
                     hon = 1
+                    print('%s\t%s' % (hon, 1))
                 if search_term2 in current:
                     hen = 1
+                    print('%s\t%s' % (hen, 1))
                 if search_term3 in current:
                     den = 1
+                    print('%s\t%s' % (den, 1))
                 if search_term4 in current:
                     det = 1
+                    print('%s\t%s' % (det, 1))
                 if search_term5 in current:
                     denna = 1
+                    print('%s\t%s' % (denna, 1))
                 if search_term6 in current:
                     denne = 1
+                    print('%s\t%s' % (denne, 1))
                 if search_term7 in current:
                     han = 1
-                print('%s\t%s' % (search_term1,hon))
-                print('%s\t%s' % (search_term2,hen))
-                print('%s\t%s' % (search_term3,den))
-                print('%s\t%s' % (search_term4,det))
-                print('%s\t%s' % (search_term5,denna))
-                print('%s\t%s' % (search_term6,denne))
-                print('%s\t%s' % (search_term7,han))
-                print('count ',1)
+                    print('%s\t%s' % (han, 1))
+
+
 
