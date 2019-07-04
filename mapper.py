@@ -47,5 +47,4 @@ for line in sys.stdin:
                 print('%s\t%s' % (search_term6,denne))
                 print('%s\t%s' % (search_term7,han))
                 print('count ',1)
-except:
-            continue
+
